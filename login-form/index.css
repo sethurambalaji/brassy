@@ -91,3 +91,12 @@ h1{
 #email-input:hover,#password-input:hover{
     box-shadow:5px 5px;
 }
+
+.forgot-password-container{
+    position: relative;
+    top:10vh;
+    left:10%;
+}
+.forgot-password{
+    color:rgb(204,67,164);
+}
