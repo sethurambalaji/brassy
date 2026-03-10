@@ -120,6 +120,10 @@ h1{
     font-weight: bold;
 }
 
+#login-submit:hover{
+    cursor: pointer;
+}
+
 .signup-link-container{
     position: relative;
     top:10vh;
@@ -131,4 +135,10 @@ h1{
 .signup-now-link{
     color:rgb(228,67,160);
     text-decoration: none;
+}
+
+.signup-now-link:hover{
+    color:white;
+    background-color: rgb(228,67,160);
+    cursor: pointer;
 }
