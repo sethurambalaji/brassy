@@ -30,25 +30,35 @@ h1{
 
     display: flex;
     justify-content: center;
-
+    border:solid;
+    border-color: black;
+    border-width:2px;
+    border-radius: 10px;
 }
 
 #login-button,#signup-button{
     position: relative;
     width: 50%;
     background-color: white;  
-    font-size:medium;
+    font-size:larger;
     font-weight: bold;  
+    border: none;
+    
 }
 
 #login-button{
     color:white;
     background-image: linear-gradient(to right,rgb(185,68,172),rgb(228,67,160));
+    border-radius: 8px 0 0 8px;
 }
 
 #login-button:hover{
     color:black;
     background-color: white;
     background-image: none;
-    font-size: larger;
+    font-size:x-large;
+}
+
+#signup-button{
+    border-radius: 0 8px 8px 0;
 }
