@@ -17,3 +17,19 @@ h1{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.login-buttons{
+    position: relative;
+    left: 10%;
+    top: 5vh;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 80%;
+}
+
+#login-button,#signup-button{
+    position: relative;
+    width: 49%;
+    
+}
