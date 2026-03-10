@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(to right,rgb(185,68,172),rgb(228,67,160));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-container{
@@ -15,7 +16,6 @@ h1{
     position: relative;
     top:5vh;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .login-buttons{
@@ -68,14 +68,22 @@ h1{
     left: 10%;
     right:10%;
     width:80%;
+    height:30%;
     top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    
 }
 
 #email-input,#password-input{
     
     width: 100%;
-
+    height: 5vh;
+    text-indent: 1vw;
+    border: solid 2px whitesmoke;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0 0;
+    font-size: medium;
 }
