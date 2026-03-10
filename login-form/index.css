@@ -6,7 +6,7 @@ body{
 .form-container{
     background-color: white;
     width:40vw;
-    height:70vh;
+    height:75vh;
     border-radius: 10px;
     position: relative;
     left:30vw;
@@ -118,4 +118,17 @@ h1{
     border: none;
     font-size:larger;
     font-weight: bold;
+}
+
+.signup-link-container{
+    position: relative;
+    top:10vh;
+    left:10%;
+    width:80%;
+    text-align: center;
+}
+
+.signup-now-link{
+    color:rgb(228,67,160);
+    text-decoration: none;
 }
