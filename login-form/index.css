@@ -1,3 +1,19 @@
 body{
     background-image: linear-gradient(to right,rgb(185,68,172),rgb(228,67,160));
 }
+
+.form-container{
+    background-color: white;
+    width:40vw;
+    height:70vh;
+    border-radius: 10px;
+    position: relative;
+    left:30vw;
+}
+
+h1{
+    position: relative;
+    top:5vh;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
