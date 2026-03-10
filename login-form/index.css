@@ -22,14 +22,33 @@ h1{
     position: relative;
     left: 10%;
     top: 5vh;
-    border: 2px;
+    /* border: 2px;
     border-color: black;
-    border-style: solid;
+    border-style: solid; */
     width: 80%;
+    height:10vh;
+
+    display: flex;
+    justify-content: center;
+
 }
 
 #login-button,#signup-button{
     position: relative;
-    width: 49%;
-    
+    width: 50%;
+    background-color: white;  
+    font-size:medium;
+    font-weight: bold;  
+}
+
+#login-button{
+    color:white;
+    background-image: linear-gradient(to right,rgb(185,68,172),rgb(228,67,160));
+}
+
+#login-button:hover{
+    color:black;
+    background-color: white;
+    background-image: none;
+    font-size: larger;
 }
