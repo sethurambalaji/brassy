@@ -100,3 +100,22 @@ h1{
 .forgot-password{
     color:rgb(204,67,164);
 }
+
+.login-submit-container{
+    position: relative;
+    top:10vh;
+    left:10%;
+    width:80%;
+}
+
+#login-submit{
+    width:100%;
+    color:white;
+    background-image: linear-gradient(to right,rgb(185,68,172),rgb(228,67,160));
+    border-radius: 8px 8px;  
+    margin-top: 2vh;
+    height:8vh; 
+    border: none;
+    font-size:larger;
+    font-weight: bold;
+}
